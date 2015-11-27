@@ -5,7 +5,7 @@ bash function for autocomplete composer command line parameters as explained on 
 
 Now you can add to your .bashrc file
 
-    if [ -f /path/to/composer_completion ]: then
+    if [ -f /path/to/composer_completion ] ; then
         . /path/to/composer_completion
     fi
 
